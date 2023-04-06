@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>TUGAS-JS_DOM</title>
+</head>
+<body>
+   <header>
+      <h1 class="title">Tugas JS DOM</h1>
+      <h3>Document Object Model</h3>
+      <p id="tagline" class="tag">JavaScript Pancen Oye</p>
+   </header>
+
+   <main>
+      <h4>Judul Tugas</h4>
+      <ul id="list">
+         <li class="list-1">test1</li>
+         <li class="list-2">test2</li>
+         <li class="list-3" id="urutanke-3">test3</li>
+         <li>test4</li>
+      </ul>
+
+      <section>
+         <button class="welcome">Welcome!</button>
+         <button class="end">End</button>
+         <br><br>
+         <button class="simpan" onclick="simpan()">Save</button>
+         <button class="delete" onclick="hapus()">Delete</button>
+      </section>
+      <br>
+      <section>
+         <form action="#">
+            <label for="pilihan">pilih lokasi wisata</label><br>
+               <input type="checkbox" name="solo" id="solo" value="Solo">Solo
+               <br>
+               <button id="accept">Confirm</button>
+               <br><hr>
+               <label for="Hobi">Pilih Hobi anda :</label><br>
+                  <input type="checkbox" name="hobi" id="bola" value="Sepak Bola">Sepak Bola <br>
+                  <input type="checkbox" name="hobi" id="badminton" value="Badminton">Badminton <br>
+                  <button id="set">Kirim</button>
+               <br>
+               <hr>
+               <label for="gender">Jenis Kelamin</label><br>
+                  <input type="radio" name="gender" id="laki" value="Laki-laki">Laki-laki <br>
+                  <input type="radio" name="gender" id="wanita" value="Perempuan">Perempuan <br>
+                  <button id="pilih">Pilih !</button>
+                  <p id="genderr"></p>
+         </form>
+      </section>
+   </main>
+
+   <script src="/DOM1.js"></script>
+</body>
+</html>
